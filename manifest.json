@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "Paced Extension",
 	"version": "1.0",
-	"description": "Extension for see what is the actual Pace.",
+	"description": "Extension for see what is your actual Pace.",
 	"icons": {
 		"88": "icons/icon.webp"
 	},
