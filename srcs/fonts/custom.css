@@ -1,0 +1,24 @@
+#logtime_container {
+	display: flex!important;
+}
+
+@keyframes phoenix {
+	0% {
+		background-position:0 20%
+	}
+	50% {
+		background-position:21% 79%
+	}
+	100% {
+		background-position:80% 120%
+	}
+}
+
+.user-badge[data-slug="phoenix"] {
+	background: linear-gradient(rgb(255, 90, 0) 33%, rgb(249, 158, 59) 67%, rgb(255, 90, 0) 100%);
+	background-color: rgba(0, 0, 0, 0)!important;
+	border-color: rgba(0, 0, 0, 0)!important;
+	background-size: 100% 500%;
+	animation: phoenix 2s infinite;
+	animation-timing-function: linear;
+}

@@ -1,0 +1,16 @@
+.paced_box_v3 {
+	display: flex;
+	border-right-width: 1px;
+	flex-direction: column;
+	width: 10%;
+	height: 100%;
+	--tw-text-opacity: 1;
+	color: rgb(255 255 255 / var(--tw-text-opacity));
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	border-color: #333;
+	border-bottom-width: 1px;
+	gap: 1.25rem;
+	justify-content: center;
+	align-items: center;
+}
