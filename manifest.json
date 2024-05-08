@@ -6,13 +6,6 @@
 	"icons": {
 		"88": "icons/icon.webp"
 	},
-	"browser_specific_settings": {
-		"gecko": {
-			"id": "addon@tzeribi.fr",
-			"strict_min_version": "78.0"
-		},
-		"gecko_android": {}
-	},
 	"permissions": [
 		"activeTab"
 	],
@@ -31,11 +24,5 @@
 			"css": ["srcs/fonts/paced.css"],
 			"run_at": "document_end"
 		}
-	],
-	"background": {
-		"scripts": [
-			"srcs/utils/console.js",
-			"srcs/main.js"
-		]
-	}
+	]
 }

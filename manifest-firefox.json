@@ -1,0 +1,41 @@
+{
+	"manifest_version": 3,
+	"name": "Paced Extension",
+	"version": "1.0",
+	"description": "Extension for see what is your actual Pace.",
+	"icons": {
+		"88": "icons/icon.webp"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "addon@tzeribi.fr",
+			"strict_min_version": "78.0"
+		},
+		"gecko_android": {}
+	},
+	"permissions": [
+		"activeTab"
+	],
+	"host_permissions": ["https://pace-system.42.fr/api/v1/users/me"],
+	"incognito": "spanning",
+	"content_scripts": [
+		{
+			"matches": [ "*://profile.intra.42.fr/" ],
+			"js": ["srcs/utils/utils.js", "srcs/utils/console.js", "srcs/init.js", "srcs/paced.js"],
+			"css": ["srcs/fonts/custom.css"],
+			"run_at": "document_start"
+		},
+		{
+			"matches": [ "*://profile.intra.42.fr/" ],
+			"js": ["srcs/main.js"],
+			"css": ["srcs/fonts/paced.css"],
+			"run_at": "document_end"
+		}
+	],
+	"background": {
+		"scripts": [
+			"srcs/utils/console.js",
+			"srcs/main.js"
+		]
+	}
+}
