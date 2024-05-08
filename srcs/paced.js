@@ -25,7 +25,6 @@ async function getPaced() {
 	
 	iConsole.log(`Getting Paced...`);
 	const accessToken = getAccessToken();
-	console.log(accessToken);
 	const response = await fetch('https://pace-system.42.fr/api/v1/users/me', {
 		headers: {
 			'Content-Type': 'application/json',
