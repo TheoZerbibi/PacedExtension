@@ -7,7 +7,7 @@ A simple extension for the 42 intra V3 to know your current pace.
 # Installation Guide
 
 For Firefox, click [here](https://addons.mozilla.org/fr/firefox/addon/paced-extension/).
-For Chrome, click [here](https://chrome.google.com/webstore/detail/phoenix-dashboard/enlndddhnnpolihocgggjmneofjhaiag).
+For Chrome, click [here](#).
 Or you can download directly in the [Release](https://github.com/TheoZerbibi/PacedExtension/releases) page.
 
 Ensure that your intra V3 is enabled (you can enable it in your [profile settings](https://profile.intra.42.fr/v3_early_access)).
