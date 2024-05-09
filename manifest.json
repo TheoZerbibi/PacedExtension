@@ -9,9 +9,6 @@
         "48": "icons/icon48.png",
         "128": "icons/icon128.png"
     },
-	"permissions": [
-		"activeTab"
-	],
 	"host_permissions": ["https://pace-system.42.fr/api/v1/users/me"],
 	"incognito": "spanning",
 	"content_scripts": [
