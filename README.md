@@ -1,7 +1,7 @@
 # ![Icon](/icons/icon32.png) PacedExtension ![Icon](/icons/icon32.png)
 A simple extension for the 42 intra V3 to know your current pace.
 
-The extension only work at `https://profile.intra.42.fr/` (`https://profile.intra.42.fr/users/<user_id>` doesn't work for exemple).
+The extension only work at `https://profile.intra.42.fr/` url (`https://profile.intra.42.fr/users/<user_id>` doesn't work for exemple).
 If the Pace Level doens't show up in your profile, check the url.
 
 ![Preview of pace](preview.png)
