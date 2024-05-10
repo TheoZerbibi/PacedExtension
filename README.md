@@ -1,5 +1,4 @@
-# PacedExtension
-
+# ![Icon](/icons/icon32.png) PacedExtension ![Icon](/icons/icon32.png)
 A simple extension for the 42 intra V3 to know your current pace.
 
 ![Preview of pace](preview.png)
